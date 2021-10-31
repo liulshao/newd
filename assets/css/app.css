@@ -69,5 +69,11 @@ span.page_prev,span.page_nowindex,span page_next ,.paginationa a {
 	border-bottom-right-radius:.2rem
 }
 		
+.breadcrumb-item + .breadcrumb-itema::before  {
+  float: left;
+  padding-right: 0.5rem;
+  color: #6c757d;
+  content: "|";
+}
 
 		
